@@ -46,7 +46,7 @@ mkdir -p ~/.pai-aws && python3 -m venv ~/.pai-aws
 Then source the virtualenv.  Typically I do it this way, I add an alias to my .zshrc:
 
 ```
-alias ntop="cd ~/src/pai-aws && source ~/.pai-aws/bin/activate"
+source ~/.pai-aws/bin/activate"
 ```
 
 I can then type in:  `ntop` and I cd into my checkout and source a virtualenv.  Next, I then make sure I have the latest packages and that linting and tests pass by running make all:
